@@ -168,7 +168,7 @@ body {
     border-color: #000;
     border-width: .25rem;
     border-radius: .25rem;
-    width: 25rem;
+    max-width: 45rem;
     white-space: nowrap;
     box-shadow: .75rem .5rem #888888;
 }
@@ -253,5 +253,11 @@ body {
 /* modal modifications */
 
 .modal {
-    position: relative;
+    position: absolute;
+    top: inherit;
+    bottom: inherit;
+}
+
+.container {
+    max-width: 350px;
 }
