@@ -206,7 +206,7 @@ body {
 #hw01 {
     background-image: url("../images/HW01.jpg");
     background-size: cover;
-    height: 12rem;
+    height: 20rem;
     color: white;
     font-weight: bolder;
     font-size: 20px;
@@ -248,4 +248,10 @@ body {
 #project1 {
     background-image: url("../images/project_1.jpeg");
     background-size: cover;
+}
+
+/* modal modifications */
+
+.modal {
+    position: relative;
 }
