@@ -200,7 +200,7 @@ body {
 .project_box {
     display: flex;
     padding: 0;
-    height: 6rem;
+    height: 10rem;
 }
 
 #hw01 {
